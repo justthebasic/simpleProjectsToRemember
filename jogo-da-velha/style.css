@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.quadrado {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: 600px;
+    max-height: 500px;
+}
+
+.quadradinho {
+    display: inline-block;
+}
+
+.box {
+    display: inline-block;
+    border: 0px solid;
+    background-color: whitesmoke;
+    overflow: hidden;
+    
+    padding: 26px 10px 20px 10px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.box:hover {
+    background-color: rgba(201, 201, 201, 0.363);
+}
+
+footer {
+    margin-top: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 5%;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+footer h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+footer button {
+    margin: 5px;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+footer button:hover {
+    background-color: rgba(168, 168, 168, 0.849);
+}
+
+ .marked-x
+ {
+    background: rgb(0, 160, 0);
+} 
+.marked-o{
+    background: rgba(255, 0, 0, 0.856);
+}
+ .marked-x:hover
+ {
+    background: rgb(0, 197, 0);
+} 
+.marked-o:hover
+{
+    background: rgb(255, 54, 54);
+}
+
+#jogador-selecionado{
+    font-size: 1.2em;
+}
+#vencedor {
+    margin: 5px;
+    font-size: large;
+}

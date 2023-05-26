@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da velha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Jogo da velha</h1>
+
+    <div class="quadrado">
+        <div class="quadradinho">
+            <div class="box" id="1" onclick="escolherQuadradinho(event)"></div>
+            <div class="box" id="2" onclick="escolherQuadradinho(event)"></div>
+            <div class="box" id="3" onclick="escolherQuadradinho(event)"></div>
+        </div>
+        <div class="quadradinho">
+            <div class="box" id="4" onclick="escolherQuadradinho(event)"></div>
+            <div class="box" id="5" onclick="escolherQuadradinho(event)"></div>
+            <div class="box" id="6" onclick="escolherQuadradinho(event)"></div>
+        </div>
+        <div class="quadradinho">
+            <div class="box" id="7" onclick="escolherQuadradinho(event)"></div>
+            <div class="box" id="8" onclick="escolherQuadradinho(event)"></div>
+            <div class="box" id="9" onclick="escolherQuadradinho(event)"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div>
+            <label><h1>Jogador:</h1></label>
+            <label id="jogador-selecionado"></label>
+        </div>
+    
+        <div>
+            <label><h1>Vencedor:</h1></label>
+            <label id="vencedor"></label>
+        </div>
+        
+        <div>
+            <button onclick="reiniciarJogo()">Reiniciar</button>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
